@@ -1,5 +1,5 @@
 const http = require('http');
-let users = [{ id: 3333, name: 'mk1' }, { id: 2222, name: 'mk2' }, { id: 3333, name: 'mk3' }];
+let users = [{ id: 1, name: 'mk1' }, { id: 2222, name: 'mk2' }, { id: 3333, name: 'mk3' }];
 let server = http.createServer(function (req, res) {
   // console.log(req.method, req.url);
   if (req.url == '/api/users') {
