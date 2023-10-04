@@ -1,0 +1,5 @@
+node_moudle
+lib
+.idea
+.package-lock.json
+.dockerignore
